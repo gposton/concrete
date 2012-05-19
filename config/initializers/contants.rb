@@ -1,0 +1,6 @@
+FLICKR_API_KEY='3ca4116da2011e1c4e369a1d82ea4839'
+FLICKR_SECRET='dcf6c02f5b9ff364'
+FLICKR_USERNAME='gposton1040'
+
+FlickRaw.api_key = FLICKR_API_KEY
+FlickRaw.shared_secret = FLICKR_SECRET
