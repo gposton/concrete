@@ -23,7 +23,20 @@ h1{
 }
 
 h2{
+  margin: 0;
+  padding: 0 95px 0 0;
 }
+
+a:link {
+  text-decoration:none;
+  color: #98AFC7;
+}
+a:visited {
+  text-decoration:none;
+  color: #98AFC7;
+}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
 
 #content{
   background: white url('headerBackground.gif') repeat-x;
@@ -32,7 +45,7 @@ h2{
 
 #header{
   background: #1B3E5D url('homeHeaderBckgrd.jpg') no-repeat center top;
-  height: 80px;
+  height: 92px;
   padding: 20px 0 0 0;
   margin: 0;
 }
@@ -74,4 +87,8 @@ h2{
   width: 50%;
   margin: 0 auto;
   text-align: center;
+}
+
+.right{
+  float: right;
 }
