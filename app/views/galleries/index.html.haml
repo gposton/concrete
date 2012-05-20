@@ -1,0 +1,6 @@
+- @sets.each do |set|
+  %h1=set.title
+  .fotorama
+    - set.photos.each do |photo|
+      =image_tag photo.url
+

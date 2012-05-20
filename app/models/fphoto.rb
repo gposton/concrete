@@ -10,15 +10,15 @@ class Fphoto
   end
 
   def url(size='medium')
-    s = case size
+    s = case size.to_s
         when 'thumb'
-          't'
+          '_t'
         when 'medium'
-          'z'
+          ''
         when 'large'
-          'b'
+          '_b'
         end
 
-    "http://farm#{@json[:farm]}.staticflickr.com/#{@json[:server]}/#{self.id}_#{@json[:secret]}_#{s}.gif"
+    "http://farm#{@json['farm']}.staticflickr.com/#{@json['server']}/#{self.id}_#{@json['secret']}#{s}.jpg"
   end
 end

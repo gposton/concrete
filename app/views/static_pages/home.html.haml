@@ -1,6 +1,3 @@
-- @sets.each do |set|
-  %h1=set.title
-  .fotorama
-    - set.photos.each do |photo|
-      image_tag photo.url
-
+#carosel
+  = render :partial => 'photos/index', :locals => {:photos => @set.photos, :settings => "{nav: 'none', autoplay: true, transitionDuration: 1000, background: 'transparent', loop: true}"}
+  -#= render :partial => 'photos/index', :locals => {:photos => @set.photos, :settings => "{nav: 'none', autoplay: true, transitionDuration: 1000, background: 'white url(\\'https://www.icontact.com/static/img/headerBackground.gif\\') repeat-x'}"}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+%html
+  %head
+    %title
+      Concrete
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    #header
+      #header_content
+        %h1
+          Custom Concrete Creations
+    #content
+      = yield
+    #footer
+      #footer_content
+        #column_left
+          %h2
+            About us
+          %p
+            We were founded in 1804 and since then
+            have been building quality concrete
+            creations for 1000's of satisfied businesses
+            and customers.  Our customers have
+            included Martin Luther King Jr., Malcom X,
+            Barak Obama, and the King of England.  Our
+            focus is always on providing customer
+            satisfaction at a fair price.
+        #column_right
+          %h2
+            Contact us
+          %p
+            Phone: (919) 649-8587
+          %p
+            Email: aklsjdfa@alsdfj.com
