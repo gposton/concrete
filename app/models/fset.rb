@@ -13,6 +13,19 @@ class Fset
     @title ||= @json['title']
   end
 
+  def primary
+    if @primary.nil?
+      self.photos.each do |photo|
+        @primary = photo if photo.id == @json['primary']
+      end
+    end
+    @primary||= self.photos.first
+  end
+
+  def thumb
+    @thumb||= self.primary.url(:square)
+  end
+
   def photos
     if @photos.nil?
       @photos = []

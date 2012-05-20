@@ -1,6 +1,8 @@
-- @sets.each do |set|
-  %h1=set.title
-  .fotorama
-    - set.photos.each do |photo|
-      =image_tag photo.url
+%table
+  - @sets.each_slice(4) do |row|
+    %tr
+      - row.each do |set|
+        %td
+          %h2= link_to set.title, gallery_path(:id => set.id)
+          %div= link_to (image_tag set.thumb), gallery_path(:id => set.id)
 

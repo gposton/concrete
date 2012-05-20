@@ -17,6 +17,8 @@ class Fphoto
           ''
         when 'large'
           '_b'
+        when 'square'
+          '_s'
         end
 
     "http://farm#{@json['farm']}.staticflickr.com/#{@json['server']}/#{self.id}_#{@json['secret']}#{s}.jpg"

@@ -17,9 +17,40 @@ body{
   text-align: center;
 }
 
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+table tr td{
+  text-align: center;
+  padding: 0 30px 0 30px;
+}
+
+table tr td h2{
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+table tr td div{
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  position: relative;
+  background: url('thumb_background.gif') no-repeat center top;
+}
+
+table tr td div a img{
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-37px;
+  margin-left:-45px;
+}
+
 h1{
   margin: 0;
-  color: #98AFC7;
 }
 
 h2{
@@ -27,23 +58,20 @@ h2{
   padding: 0 95px 0 0;
 }
 
-a:link {
-  text-decoration:none;
-  color: #98AFC7;
-}
-a:visited {
-  text-decoration:none;
-  color: #98AFC7;
-}
-a:hover {text-decoration:underline;}
-a:active {text-decoration:underline;}
+a{color: #98AFC7;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:active{text-decoration:underline;}
 
 #content{
+  color: #98AFC7;
   background: white url('headerBackground.gif') repeat-x;
   padding: 20px;
 }
 
 #header{
+  color: #98AFC7;
   background: #1B3E5D url('homeHeaderBckgrd.jpg') no-repeat center top;
   height: 92px;
   padding: 20px 0 0 0;
