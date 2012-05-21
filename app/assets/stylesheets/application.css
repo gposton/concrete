@@ -17,27 +17,27 @@ body{
   text-align: center;
 }
 
-table{
+#content table{
   margin-left: auto;
   margin-right: auto;
   width: 800px;
 }
 
-table tr td{
+#content table tr td{
   text-align: center;
   padding: 0 30px 0 30px;
 }
 
-table tr td h2{
+#content table tr td h2{
   width: 100%;
   padding: 10px 0 10px 0;
 }
 
-table tr td h2 a{
+#content table tr td h2 a{
   padding: 0 17px 0 0;
 }
 
-table tr td div{
+#content table tr td div{
   width: 110px;
   height: 110px;
   margin: 0 auto;
@@ -45,7 +45,7 @@ table tr td div{
   background: url('thumb_background.gif') no-repeat center top;
 }
 
-table tr td div a img{
+#content table tr td div a img{
   position:absolute;
   top:50%;
   left:50%;
@@ -62,7 +62,9 @@ h2{
   padding: 0 0px 0 0;
 }
 
-a{color: #98AFC7;}
+#header a{color: #98AFC7;}
+#content a{color: #98AFC7;}
+#footer a{color: black;}
 a:link{text-decoration:none;}
 a:visited{text-decoration:none;}
 a:hover{text-decoration:underline;}
