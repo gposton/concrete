@@ -35,4 +35,8 @@ class Fset
     end
     @photos
   end
+
+  def self.get_set(id)
+    Fset.new(flickr.photosets.getInfo :photoset_id => id)
+  end
 end

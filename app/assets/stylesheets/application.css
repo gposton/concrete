@@ -33,6 +33,10 @@ table tr td h2{
   padding: 10px 0 10px 0;
 }
 
+table tr td h2 a{
+  padding: 0 17px 0 0;
+}
+
 table tr td div{
   width: 110px;
   height: 110px;
@@ -55,7 +59,7 @@ h1{
 
 h2{
   margin: 0;
-  padding: 0 95px 0 0;
+  padding: 0 0px 0 0;
 }
 
 a{color: #98AFC7;}
@@ -79,7 +83,9 @@ a:active{text-decoration:underline;}
 }
 
 #header_content{
+  margin: 0 auto;
   width: 800px;
+  text-align: left;
 }
 
 #footer{
@@ -112,9 +118,12 @@ a:active{text-decoration:underline;}
 }
 
 #carosel{
-  width: 50%;
+  width: 800px;
   margin: 0 auto;
-  text-align: center;
+}
+
+#fotorama__wrap{
+  margin: 0 auto;
 }
 
 .right{

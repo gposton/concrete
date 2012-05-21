@@ -1,2 +1,2 @@
-<h1>Galleries#show</h1>
-<p>Find me in app/views/galleries/show.html.erb</p>
+#carosel
+  = render :partial => 'photos/index', :locals => {:photos => @set.photos, :settings => "{transitionDuration: 1000, background: 'transparent', navBackground: 'transparent', width: '100%', height: '317px'}"}

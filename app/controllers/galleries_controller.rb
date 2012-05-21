@@ -4,5 +4,6 @@ class GalleriesController < ApplicationController
   end
 
   def show
+    @set = Fset.get_set params[:id]
   end
 end
