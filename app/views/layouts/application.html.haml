@@ -9,8 +9,7 @@
   %body
     #header
       #header_content
-        %h1
-          Custom Concrete Creations
+        %h1= link_to 'Custom Concrete Creations', home_path
         %h2{:class => 'right'}=link_to 'Galleries', galleries_path
     #content
       = yield
