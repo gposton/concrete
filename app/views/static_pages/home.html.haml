@@ -1,2 +1,12 @@
 #carosel
-  = render :partial => 'photos/index', :locals => {:photos => @set.photos, :settings => "{nav: 'none', autoplay: true, transitionDuration: 1000, background: 'transparent', loop: true, width: '100%', height: '317px'}"}
+  #ffotorama
+    =image_tag 'pool.png'
+    =image_tag 'driveway.png'
+    =image_tag 'patio.png'
+    =image_tag 'porch.png'
+
+
+:javascript
+  $('#ffotorama').fotorama(
+    {nav: 'none', autoplay: true, transitionDuration: 1000, background: 'transparent', loop: true, width: '100%', height: '317px'}
+  );
