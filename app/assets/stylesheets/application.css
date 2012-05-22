@@ -26,14 +26,16 @@ body{
 #content table tr td{
   text-align: center;
   padding: 0 30px 0 30px;
+  width: 33%
 }
 
-#content table tr td h2{
+#content table tr td h3{
   width: 100%;
-  padding: 10px 0 10px 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
-#content table tr td h2 a{
+#content table tr td h3 a{
   padding: 0 17px 0 0;
 }
 
@@ -41,6 +43,7 @@ body{
   width: 110px;
   height: 110px;
   margin: 0 auto;
+  padding: 0 0 20px 0;
   position: relative;
   background: url('thumb_background.gif') no-repeat center top;
 }
@@ -49,7 +52,7 @@ body{
   position:absolute;
   top:50%;
   left:50%;
-  margin-top:-37px;
+  margin-top:-47px;
   margin-left:-45px;
 }
 
@@ -72,7 +75,7 @@ a:active{text-decoration:underline;}
 
 #content{
   color: #98AFC7;
-  background: white url('headerBackground.gif') repeat-x;
+  background: #5E8BB4 url('headerBackground.gif') repeat-x;
   padding: 20px;
 }
 
@@ -82,6 +85,7 @@ a:active{text-decoration:underline;}
   height: 92px;
   padding: 20px 0 0 0;
   margin: 0;
+  font-family: Impact, Times, Serif;
 }
 
 #header_content{
@@ -128,6 +132,11 @@ a:active{text-decoration:underline;}
   margin: 0 auto;
 }
 
-.right{
+#nav{
+  font-family: Veranda, Times, Serif;
   float: right;
+}
+
+#title{
+  font-style: italic;
 }
